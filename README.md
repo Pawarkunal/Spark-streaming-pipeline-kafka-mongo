@@ -150,31 +150,6 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/spark_streaming
 }
 ```
 
-## ⚙️ Dataproc Configuration
-
-### Cluster Specifications
-- **Master**: n1-standard-4 (4 vCPUs, 15GB RAM)
-- **Workers**: 3-6 n1-standard-4 instances (auto-scaling)
-- **Preemptible workers**: Optional for cost optimization
-- **Boot disk**: 50GB SSD for optimal performance
-
-### Spark Optimizations
-```properties
-spark.executor.memory=4g
-spark.executor.cores=2
-spark.driver.memory=2g
-spark.dynamicAllocation.enabled=true
-spark.dynamicAllocation.maxExecutors=10
-spark.sql.adaptive.enabled=true
-spark.streaming.backpressure.enabled=true
-```
-
-### Cost Optimization
-- **Preemptible instances** for non-critical workloads
-- **Auto-scaling** based on workload
-- **Auto-termination** after idle periods
-- **Regional persistent disks** for cost-effective storage
-
 ## 🤝 Contributing
 
 1. Fork the repository
