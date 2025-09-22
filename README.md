@@ -53,7 +53,6 @@ This project implements a complete cloud-native streaming architecture that hand
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Pawarkunal/Spark-streaming-pipeline-kafka-mongo.git
-cd realtime-order-payment-streaming
 ```
 
 ### 2. Google Cloud Setup
