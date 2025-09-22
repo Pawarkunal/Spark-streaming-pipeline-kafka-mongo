@@ -21,7 +21,7 @@ This project implements a complete cloud-native streaming architecture that hand
 
 | Technology | Purpose | Deployment |
 |------------|---------|-------------|
-| ![Kafka Logo](<img src="assets/logos/kafka-logo.png" alt="Apache Kafka" width="20" height="20"/>
+| (<img src="assets/logos/kafka-logo.png" alt="Apache Kafka" width="40" height="40"/>
 ) **Apache Kafka** | Message streaming platform | Confluent Cloud |
 | ![Spark Logo](assets/logos/spark-logo.png) **Apache Spark** | Stream processing engine | Google Cloud Dataproc |
 | ![MongoDB Logo](assets/logos/mongodb-logo.png) **MongoDB** | Document database | MongoDB Atlas |
