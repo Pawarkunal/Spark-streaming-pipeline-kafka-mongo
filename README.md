@@ -84,13 +84,13 @@ MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/spark_streaming
 ## 📁 Code Structure
 
 ```
-├── order_producer.py              # Kafka producer for order events
-├── payment_producer.py            # Kafka producer for payment events  
-├── join_stream.py                # Spark streaming processor with stateful joins
-├── requirements-dataproc.txt      # Python dependencies for Dataproc
-├── .env-dataproc.example         # Environment variables template for Dataproc
 ├── LICENSE                       # MIT License
-└── README.md                     # Project documentation
+├── README.md                     # Project documentation
+├── .env-dataproc.example         # Environment variables template for Dataproc
+├── join_stream.py                # Spark streaming processor with stateful joins
+├── order_producer.py             # Kafka producer for order events
+├── payment_producer.py           # Kafka producer for payment events  
+└── requirements.txt              # Python dependencies for Dataproc
 ```
 
 ### Key Components
