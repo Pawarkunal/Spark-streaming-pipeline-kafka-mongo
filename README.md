@@ -20,8 +20,8 @@ This project implements a complete streaming architecture that handles order and
 
 | Technology | Purpose |
 |------------|---------|
-| ![Kafka Logo][10] **Apache Kafka** | Message streaming platform |
-| **Apache Spark** | Stream processing engine |
+| ![Kafka Logo][10] **Apache Kafka** | For messaging queue |
+| **Apache Spark** | Structured streaming processing engine |
 | ![MongoDB Logo][6] **MongoDB** | Document database for joined results |
 | ![Python Logo][10] **Python/PySpark** | Primary programming language |
 | ![GCS Logo][5] **Google Cloud Storage** | Log storage and checkpointing |
@@ -33,7 +33,7 @@ This project implements a complete streaming architecture that handles order and
 - Apache Spark 3.5+
 - Access to Confluent Cloud (or Kafka cluster)
 - MongoDB instance 
-- Google Cloud Platform account (for GCS)
+- Google Cloud Platform account (for GCS, Dataproc)
 - Java 8+ (for Spark)
 
 ## ⚙️ Installation and Configuration
