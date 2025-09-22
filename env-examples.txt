@@ -19,5 +19,5 @@ KAFKA_PAYMENT_TOPIC=stream_payment_producer
 # GOOGLE_APPLICATION_CREDENTIALS=/path/to/service-account-key.json
 
 # Spark Configuration (Optional overrides)
-# SPARK_MASTER=local[*]
+# SPARK_MASTER=your_master (yarn or local)
 # SPARK_APP_NAME=StatefulOrderPaymentStreaming
