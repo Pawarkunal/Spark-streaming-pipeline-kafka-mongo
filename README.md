@@ -202,10 +202,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Built with ❤️ for Google Cloud Dataproc using Apache Kafka, Apache Spark, and Python**
-
-## 📚 Additional Resources
-
-- [Complete Dataproc Deployment Guide](dataproc-guide.md)
-- [Google Cloud Dataproc Documentation](https://cloud.google.com/dataproc/docs)
-- [Apache Spark Structured Streaming Guide](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)
-- [Confluent Kafka Python Client](https://docs.confluent.io/kafka-clients/python/current/overview.html)
