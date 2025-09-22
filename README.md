@@ -40,7 +40,7 @@ This project implements a complete streaming architecture that handles order and
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/realtime-order-payment-streaming.git
+git clone https://github.com/Pawarkunal/Spark-streaming-pipeline-kafka-mongo.git
 cd realtime-order-payment-streaming
 ```
 
@@ -129,7 +129,6 @@ python join_stream.py
 ### Monitoring
 
 - **Application Logs**: Check local logs and GCS bucket
-- **Spark UI**: Access at `http://localhost:4040` during processing
 - **MongoDB**: Query the `spark_streaming_stateful_writes` collection for joined results
 
 ## 📁 Code Structure
@@ -168,43 +167,6 @@ python join_stream.py
   - MongoDB sink for joined results
   - GCS integration for log storage
 
-### Data Schemas
-
-**Order Event Schema:**
-```json
-{
-  "order_id": "string",
-  "order_date": "ISO timestamp", 
-  "created_at": "ISO timestamp",
-  "customer_id": "string",
-  "amount": "integer"
-}
-```
-
-**Payment Event Schema:**
-```json
-{
-  "payment_id": "string",
-  "order_id": "string", 
-  "payment_date": "ISO timestamp",
-  "created_at": "ISO timestamp", 
-  "amount": "integer"
-}
-```
-
-**Joined Output Schema:**
-```json
-{
-  "order_id": "string",
-  "order_date": "ISO timestamp",
-  "created_at": "ISO timestamp", 
-  "customer_id": "string",
-  "order_amount": "integer",
-  "payment_id": "string",
-  "payment_date": "ISO timestamp",
-  "payment_amount": "integer"
-}
-```
 
 ## 🔧 Configuration Options
 
