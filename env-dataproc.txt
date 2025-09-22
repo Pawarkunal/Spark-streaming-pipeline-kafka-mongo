@@ -1,0 +1,32 @@
+# Kafka Configuration (Confluent Cloud)
+KAFKA_BOOTSTRAP=your-kafka-bootstrap-servers
+KAFKA_SASL_MECHANISM=PLAIN
+KAFKA_SECURITY_PROTOCOL=SASL_SSL
+KAFKA_SASL_USERNAME=your-kafka-username
+KAFKA_SASL_PASSWORD=your-kafka-password
+
+# Kafka Topics
+KAFKA_ORDER_TOPIC=stream_order_producer
+KAFKA_PAYMENT_TOPIC=stream_payment_producer
+
+# Google Cloud Storage (for logs, checkpoints, and code)
+GCS_CHECKPOINT_PATH=gs://kafka-mongo-stateful-streaming/stateful_streaming_logs/
+GCS_LOG_PATH=gs://kafka-mongo-stateful-streaming/logging/
+
+# MongoDB Connection 
+# Update the MongoDB URI directly in join_stream.py or use connection string
+MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/spark_streaming
+
+# Service Account (for GCS access)
+# GOOGLE_APPLICATION_CREDENTIALS is automatically handled by Dataproc
+
+# Dataproc Spark Configuration
+SPARK_EXECUTOR_MEMORY=4g
+SPARK_EXECUTOR_CORES=2
+SPARK_DRIVER_MEMORY=2g
+SPARK_MAX_EXECUTORS=10
+SPARK_MIN_EXECUTORS=2
+
+# Application-specific settings
+LOG_LEVEL=INFO
+STATE_TIMEOUT_MINUTES=15
