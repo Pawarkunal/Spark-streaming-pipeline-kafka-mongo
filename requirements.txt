@@ -2,9 +2,23 @@
 confluent-kafka>=2.3.0
 python-dotenv>=1.0.0
 
-# Spark and streaming dependencies  
-pyspark>=3.5.0
+# Spark and streaming dependencies (Dataproc comes with Spark pre-installed)
+# pyspark>=3.5.0  # Not needed - Dataproc provides Spark
 pandas>=2.0.0
 
 # Additional utilities
 typing-extensions>=4.0.0
+
+# Google Cloud dependencies
+google-cloud-storage>=2.10.0
+google-auth>=2.15.0
+
+# For Dataproc job submission (optional - if using programmatically)
+google-cloud-dataproc>=5.0.0
+
+# Optional: For development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Note: MongoDB Spark Connector is added via --jars parameter in spark-submit
+# org.mongodb.spark:mongo-spark-connector_2.12:10.5.0
