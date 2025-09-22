@@ -21,12 +21,13 @@ This project implements a complete cloud-native streaming architecture that hand
 
 | Technology | Purpose | Deployment |
 |------------|---------|-------------|
-| ![Kafka Logo][10] **Apache Kafka** | Message streaming platform | Confluent Cloud |
-| **Apache Spark** | Stream processing engine | Google Cloud Dataproc |
-| ![MongoDB Logo][6] **MongoDB** | Document database for joined results | MongoDB Atlas/Self-hosted |
-| ![Python Logo][10] **Python/PySpark** | Primary programming language | Dataproc runtime |
-| ![GCS Logo][5] **Google Cloud Storage** | Log storage and checkpointing | Native GCS integration |
-| **Google Cloud Dataproc** | Managed Spark clusters | Auto-scaling clusters |
+| ![Kafka Logo](assets/logos/kafka-logo.png) **Apache Kafka** | Message streaming platform | Confluent Cloud |
+| ![Spark Logo](assets/logos/spark-logo.png) **Apache Spark** | Stream processing engine | Google Cloud Dataproc |
+| ![MongoDB Logo](assets/logos/mongodb-logo.png) **MongoDB** | Document database | MongoDB Atlas |
+| ![Python Logo](assets/logos/python-logo.png) **Python/PySpark** | Primary programming language | Dataproc runtime |
+| ![GCS Logo](assets/logos/gcs-logo.png) **Google Cloud Storage** | Log storage and checkpointing | Native GCS integration |
+| ![Dataproc Logo](assets/logos/dataproc-logo.png) **Google Cloud Dataproc** | Managed Spark clusters | Auto-scaling clusters |
+
 
 ## 📋 Prerequisites
 
