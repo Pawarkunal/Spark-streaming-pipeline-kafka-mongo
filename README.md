@@ -44,10 +44,6 @@ This project implements a complete cloud-native streaming architecture that hand
 - **MongoDB** instance (Atlas or self-hosted)
 - **gcloud CLI** installed and configured
 
-### Local Development (Optional)
-- Python 3.8+ (for local testing of producers)
-- Java 8+ (for local Spark development)
-
 ## ⚙️ Installation and Configuration
 
 ### 1. Clone the Repository
